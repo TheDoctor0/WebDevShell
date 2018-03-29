@@ -1,0 +1,794 @@
+[
+    {
+        "caption": "Commander: Custom Command",
+        "command": "commander",
+    },
+    {
+        "caption": "Commander: Custom Command (with parameters)",
+        "command": "commander",
+        "args": {
+            "additional": true,
+            "additional_label": "Enter additional parameters"
+        }
+    },
+	{
+        "caption": "Commander: Artisan Clear Compiled",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "clear-compiled"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Down",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "down"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Help",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "help",
+            "additional": true,
+            "additional_label": "Enter the command you need help with"
+        }
+    },
+    {
+        "caption": "Commander: Artisan List",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "list"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Migrate",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "migrate"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Optimize",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "optimize"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Serve",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "serve"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Up",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "up"
+        }
+    },
+    {
+        "caption": "Commander: Artisan App:Name",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "app:name",
+            "additional": true,
+            "additional_label": "Enter your desired namespace"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Auth:Clear Resets",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "auth:clear-resets"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Cache:Clear",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "cache:clear"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Cache:Table",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "cache:table"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Config:Cache",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "config:cache"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Config:Clear",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "config:clear"
+        }
+    },
+    {
+        "caption": "Commander: Artisan DB:Seed",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "db:seed"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Event:Generate",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "event:generate"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Key:Generate",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "key:generate"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Make:Auth",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "make:auth",
+            "additional": true,
+            "additional_label": "Enter make:auth options (optional)"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Make:Console",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "make:console",
+            "additional": true,
+            "additional_label": "Enter the name of the command class"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Make:Controller",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "make:controller",
+            "additional": true,
+            "additional_label": "Enter the name of the controller class"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Make:Event",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "make:event",
+            "additional": true,
+            "additional_label": "Enter the name of the event class"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Make:Job",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "make:job",
+            "additional": true,
+            "additional_label": "Enter the name of the job class"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Make:Listener",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "make:listener",
+            "additional": true,
+            "additional_label": "Enter the name of the listener class"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Make:Middleware",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "make:middleware",
+            "additional": true,
+            "additional_label": "Enter the name of the middleware class"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Make:Migration",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "make:migration",
+            "additional": true,
+            "additional_label": "Enter the name of the migration"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Make:Model",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "make:model",
+            "additional": true,
+            "additional_label": "Enter the name of the model"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Make:Provider",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "make:provider",
+            "additional": true,
+            "additional_label": "Enter the name of the provider"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Make:Request",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "make:request",
+            "additional": true,
+            "additional_label": "Enter the name of the request"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Make:Seeder",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "make:seeder",
+            "additional": true,
+            "additional_label": "Enter the name of the seeder"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Make:Test",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "make:test",
+            "additional": true,
+            "additional_label": "Enter the name of the test"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Migrate:Install",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "migrate:install"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Migrate:Refresh",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "migrate:refresh"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Migrate:Reset",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "migrate:reset"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Migrate:Rollback",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "migrate:rollback"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Migrate:Status",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "migrate:status"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Queue:List Failed Jobs",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "queue:failed"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Queue:Failed Table",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "queue:failed-table"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Queue:Flush",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "queue:flush"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Queue:Forget",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "queue:flush",
+            "additional": true,
+            "additional_label": "Enter the ID of the failed job"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Queue:Listen",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "queue:listen",
+            "additional": true,
+            "additional_label": "Enter the name of connection"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Queue:Restart",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "queue:restart"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Queue:Retry",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "queue:retry"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Queue:Subscribe",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "queue:subscribe",
+            "additional": true,
+            "additional_label": "Enter the name of Iron.io queue and the URL to be subscribed"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Queue:Table",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "queue:table"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Queue:Work",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "queue:work",
+            "additional": true,
+            "additional_label": "Enter the name of connection"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Route:Cache",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "route:Cache"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Route:Clear",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "route:clear"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Route:List",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "route:list"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Schedule:Run",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "schedule:run"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Session:Table",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "session:table"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Vendor:Publish",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "vendor:publish",
+            "additional": true,
+            "additional_label": "Enter the name of package"
+        }
+    },
+    {
+        "caption": "Commander: Artisan View:Clear",
+        "command": "commander",
+        "args": {
+            "type": "php artisan",
+            "command": "view:clear"
+        }
+    },
+    {
+        "caption": "Commander: Artisan Documentation",
+        "command": "commander",
+        "args": {
+            "type": "url",
+            "href": "https://laravel.com/docs/artisan",
+        }
+    },
+    {
+        "caption": "Commander: Composer Dump-Autoload",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "dump-autoload"
+        }
+    },
+    {
+        "caption": "Commander: Composer Init",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "init",
+            "additional": true
+        }
+    },
+    {
+        "caption": "Commander: Composer Install",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "install",
+            "additional": true
+        }
+    },
+    {
+        "caption": "Commander: Composer Install (Global)",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "global install",
+            "additional": true
+        }
+    },
+    {
+        "caption": "Commander: Composer Update",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "update",
+            "additional": true
+        }
+    },
+    {
+        "caption": "Commander: Composer Require",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "require",
+            "additional": true
+        }
+    },
+    {
+        "caption": "Commander: Composer Require (Global)",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "global require",
+            "additional": true
+        }
+    },
+    {
+        "caption": "Commander: Composer Remove",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "require",
+            "additional": true,
+            "additional_label": "Enter packages to remove and additional parameters (optional)"
+        }
+    },
+    {
+        "caption": "Commander: Composer Remove (Global)",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "global require",
+            "additional": true,
+            "additional_label": "Enter packages to remove and additional parameters (optional)"
+        }
+    },
+    {
+        "caption": "Commander: Composer Config",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "config",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "Commander: Composer Config (Global)",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "global config",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "Commander: Composer Search",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "search",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "Commander: Composer Show",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "show",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "Commander: Composer Outdated",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "outdated",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "Commander: Composer Browse",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "browse",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "Commander: Composer Suggests",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "suggests",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "Commander: Composer Depends",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "depends",
+            "additional": true,
+            "additional_label": "Enter the package name and additional parameters (optional)",
+        }
+    },
+    {
+        "caption": "Commander: Composer Prohibits",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "prohibits",
+            "additional": true,
+            "additional_label": "Enter the package name and additional parameters (optional)",
+        }
+    },
+    {
+        "caption": "Commander: Composer Validate",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "validate",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "Commander: Composer Status",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "status",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "Commander: Composer Self-Update",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "self-update",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "Commander: Composer Create Project",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "create-project",
+            "additional": true,
+            "additional_label": "Enter the project package name and additional parameters (optional)",
+        }
+    },
+    {
+        "caption": "Commander: Composer Clear Cache",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "clear-cache",
+        }
+    },
+    {
+        "caption": "Commander: Composer Licenses",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "licenses",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "Commander: Composer Run Script",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "licenses",
+            "additional": true,
+            "additional_label": "Enter the script name and additional parameters (optional)",
+        }
+    },
+    {
+        "caption": "Commander: Composer Run Script",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "licenses",
+            "additional": true,
+            "additional_label": "Enter the script name and additional parameters (optional)",
+        }
+    },
+    {
+        "caption": "Commander: Composer Exec",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "exec",
+            "additional": true,
+            "additional_label": "Enter the script/binary name",
+        }
+    },
+    {
+        "caption": "Commander: Composer Diagnose",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "diagnose",
+        }
+    },
+    {
+        "caption": "Commander: Composer Archive",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "archive",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "Commander: Composer Help",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "help",
+            "additional": true,
+            "additional_label": "Enter the command you need help with",
+        }
+    },
+    {
+        "caption": "Commander: Composer Documentation",
+        "command": "commander",
+        "args": {
+            "type": "url",
+            "href": "https://getcomposer.org/doc",
+        }
+    },
+    {
+        "caption": "Commander: Yarn Run Dev",
+        "command": "commander",
+        "args": {
+            "type": "yarn",
+            "command": "run dev"
+        }
+    },
+    {
+        "caption": "Commander: Yarn Run Dev (Watch)",
+        "command": "commander",
+        "args": {
+            "type": "yarn",
+            "command": "run dev --watch"
+        }
+    },
+    {
+        "caption": "Commander: Yarn Run Production",
+        "command": "commander",
+        "args": {
+            "type": "yarn",
+            "command": "run production"
+        }
+    },
+    {
+        "caption": "Commander: Yarn Documentation",
+        "command": "commander",
+        "args": {
+            "type": "url",
+            "href": "https://yarnpkg.com/en/docs",
+        }
+    },
+]

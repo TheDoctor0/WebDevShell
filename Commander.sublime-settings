@@ -1,0 +1,11 @@
+{
+    // Settings
+    "override_panel_settings": true,
+
+    // Type paths
+    "php_path": "php",
+    "artisan_path": "artisan",
+    "composer_path": "composer",
+    "yarn_path": "yarn",
+    "npm_path": "npm"
+}
