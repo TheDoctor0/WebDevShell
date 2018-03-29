@@ -22,7 +22,7 @@ class CommanderCommand(sublime_plugin.WindowCommand):
         try:
             self.path = kwargs.get('path', self.window.folders()[0])
 
-            if self.path_exists(self.path) is False:
+            if 'changeable' not in self.path and self.path_exists(self.path) is False:
                 return
         except IndexError:
             sublime.error_message('Please open a project.')
@@ -49,6 +49,18 @@ class CommanderCommand(sublime_plugin.WindowCommand):
         self.command = kwargs.get('command', None)
         self.additional = kwargs.get('additional', False)
         self.additional_label = kwargs.get('additional_label', 'Enter additional parameters (optional)')
+
+        if 'changeable' in self.path:
+            self.window.show_input_panel('Enter path for command:', '', self.on_path, None, None)
+        else:
+            self.on_path()
+
+    def on_path(self, command = None):
+        if command is not None:
+            self.path = command
+
+            if self.path_exists(self.path) is False:
+                return
 
         if self.command is None:
             self.window.show_input_panel('Enter your command:', '', self.on_command, None, None)

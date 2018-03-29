@@ -54,14 +54,6 @@
         }
     },
     {
-        "caption": "Commander: Artisan Optimize",
-        "command": "commander",
-        "args": {
-            "type": "php artisan",
-            "command": "optimize"
-        }
-    },
-    {
         "caption": "Commander: Artisan Serve",
         "command": "commander",
         "args": {
