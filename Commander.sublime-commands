@@ -39,6 +39,13 @@
         }
     },
     {
+        "caption": "Commander: Check Internet Connection",
+        "command": "commander",
+        "args": {
+            "command": "ping 8.8.8.8"
+        }
+    },
+    {
         "caption": "Commander: Artisan Clear Compiled",
         "command": "commander",
         "args": {
