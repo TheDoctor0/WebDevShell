@@ -11,7 +11,34 @@
             "additional_label": "Enter additional parameters"
         }
     },
-	{
+    {
+        "caption": "Commander: Custom Command (with path and parameters)",
+        "command": "commander",
+        "args": {
+            "path": "changeable",
+            "additional": true,
+            "additional_label": "Enter additional parameters"
+        }
+    },
+    {
+        "caption": "Commander: Stack Overflow Search",
+        "command": "commander",
+        "args": {
+            "type": "url",
+            "href": "https://stackoverflow.com/search?q=",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "Commander: Google Search",
+        "command": "commander",
+        "args": {
+            "type": "url",
+            "href": "https://google.com/search?q=",
+            "additional": true,
+        }
+    },
+    {
         "caption": "Commander: Artisan Clear Compiled",
         "command": "commander",
         "args": {
@@ -752,35 +779,35 @@
         }
     },
     {
-        "caption": "Commander: Yarn Run Dev",
+        "caption": "Commander: NPM Run Dev",
         "command": "commander",
         "args": {
-            "type": "yarn",
+            "type": "npm",
             "command": "run dev"
         }
     },
     {
-        "caption": "Commander: Yarn Run Dev (Watch)",
+        "caption": "Commander: NPM Run Watch",
         "command": "commander",
         "args": {
-            "type": "yarn",
-            "command": "run dev --watch"
+            "type": "npm",
+            "command": "run watch"
         }
     },
     {
-        "caption": "Commander: Yarn Run Production",
+        "caption": "Commander: NPM Run Production",
         "command": "commander",
         "args": {
-            "type": "yarn",
+            "type": "npm",
             "command": "run production"
         }
     },
     {
-        "caption": "Commander: Yarn Documentation",
+        "caption": "Commander: NPM Documentation",
         "command": "commander",
         "args": {
             "type": "url",
-            "href": "https://yarnpkg.com/en/docs",
+            "href": "https://docs.npmjs.com",
         }
     },
 ]

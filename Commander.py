@@ -33,7 +33,18 @@ class CommanderCommand(sublime_plugin.WindowCommand):
 
         if command_type is not None:
             if command_type == 'url':
-                webbrowser.open_new_tab(kwargs.get('href', 'https://google.com'))
+                url = kwargs.get('href', False)
+
+                if url is not False:
+                    if kwargs.get('additional', False) is True:
+                        view = self.window.active_view()
+                        selection = view.substr(view.sel()[0])
+                        webbrowser.open_new_tab(url + (selection if selection else sublime.get_clipboard()))
+                    else:
+                        webbrowser.open_new_tab(url)
+                else:
+                    sublime.error_message('URL href is not specified.')
+
                 return
             else:
                 command_paths = shlex.split(command_type)
