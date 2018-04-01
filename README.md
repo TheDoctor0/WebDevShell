@@ -13,7 +13,7 @@ As you can see by default most commands are for Laravel project development, but
 - `NPM` (run dev/production/watch + documentation link)
 - `StackOverflow Search` (search selected text or if empty from clipboard)
 - `Google Search` (search selected text or if empty from clipboard)
-- `Check Internet Connection` (ping 8.8.8.8)
+- `Check Internet Connection` (ping 1.1.1.1)
 
 More will be added in the future. I am open to suggestions.
 
@@ -38,7 +38,7 @@ To add custom commands use `Preferences/Package Settings/Commander/Commands – 
 
 All `args` are optional and you can remove them.
 
-- `command` a command that will be executed in shell. 
+- `command` a command that will be executed in shell.
 If you don't define any command in `args` there will be an input to insert it every time when you use this custom command.
 
 - `type` specify command prefixes - you can add one or more. In this example executed command will be `php artisan test`.
@@ -48,7 +48,7 @@ For example `"php_path": "php"`. You can define `path` as global command or full
 - `additional` will trigger input for some parameters for you command, text from additional input will be command suffix.
 To set message for this input set `additional_label`.
 
-- `path` is a location where your command will be executed. 
+- `path` is a location where your command will be executed.
 You can add any path here or set it to `changeable` so there will be option to insert path every time you execute that command.
 If no path is defined, command will be executed in project root directory.
 

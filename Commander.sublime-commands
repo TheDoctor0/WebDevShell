@@ -42,7 +42,7 @@
         "caption": "Commander: Check Internet Connection",
         "command": "commander",
         "args": {
-            "command": "ping 8.8.8.8"
+            "command": "ping 1.1.1.1"
         }
     },
     {
