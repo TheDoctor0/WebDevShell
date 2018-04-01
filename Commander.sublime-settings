@@ -1,6 +1,7 @@
 {
     // Settings
     "override_panel_settings": true,
+    "colored_output": true,
 
     // Type paths
     "php_path": "php",

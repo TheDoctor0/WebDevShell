@@ -1,0 +1,121 @@
+%YAML 1.2
+# Credits: Sergey Kozlov (https://github.com/skozlovf/Sublime-GenericConfig)
+---
+name: Commander Output
+scope: source.commander
+contexts:
+  main:
+    # "Color (with alpha): #aacc4322, #bf34fa, #ccc"
+    - match: '(?:(?:^\s*)|\s+)#([a-fA-F0-9]{8}|[a-fA-F0-9]{6}|[a-fA-F0-9]{3})\b'
+      scope: constant.other.commander
+
+    # One line comment
+    - match: (?:(?:^\s*)|\s+)(?:(#.*(?:\n)?)|(--\s+.*(?:\n)?)|(\/\/.*(?:\n)?))$
+      captures:
+        1: comment.line.number-sign.commander
+        2: comment.line.double-dash.commander
+        3: comment.line.double-slash.commander
+      scope: meta.comment.commander
+
+    # ; one line comment
+    - match: (?:(?:^\s*)|\s+)(;\s*(?=.).*(?:\n)?)$
+      scope: meta.comment.commander
+      captures:
+        1: comment.line.number-sign.commander
+
+    # IP
+    - match: \b(?:\d+\.){3}\d+(?:(?:\:|\/)\d+)?\b
+      scope: meta.ip.commander constant.other.commander
+
+    # Number or number with unit (like 10k, 12M, 92dpi etc) and also hex like values 0xdf
+    - match: \b[0-9]+([a-zA-Z]+)?\b
+      scope: constant.numeric.commander
+
+    # "function call: name()"
+    - match: \b(\w+)\b\(
+      scope: meta.function.commander
+      captures:
+        1: entity.name.function.commander
+
+    # Constant
+    - match: \b(?i:true|false)\b
+      scope: constant.language.commander
+
+    # Constant
+    - match: \b(?<!-)(?i:on|off|yes|no|null|none|nan)(?!-)\b
+      scope: constant.language.commander
+
+    # One line word, or word with following {, or [word] or <word>
+    - match: (?:^\s*(\w+)\s*(?={))|(?:^\s*(\w+)\s*$)|(^\s*\[.*\]\s*$)|(^\s*\<.*\>\s*$)
+      scope: storage.type.commander
+
+    - match: '"'
+      push: double_string
+
+    - match: "'"
+      push: single_string
+
+    - match: \\"
+      push: quoted_double_string
+
+    - match: \\'
+      push: quoted_single_string
+
+    # Keywords
+    - match: (^\s*|\b)(?<![.-])(function|define|ifn?def|endif|macro|insertmacro|index|location|alias|include|rewrite|if|then|else|start|stop|restart|with|alert|internal)(?![.-])\b
+      scope: keyword.other.commander
+
+    # "Var name: %name, %name%, $name, $name$, ${name}, %{name}, %(name), $(name)"
+    - match: ([\%\$@]{1,2}\{\w+\}[\%\$@]{0,2})|([\%\$@]{1,2}\(\w+\)[\%\$@]{0,2})|([\%\$@]{1,2}\w+[\%\$@]{0,2})
+      scope: storage.source.commander
+
+    # "Constant like names (ie in uppercase: NAME, SOME_NAME)"
+    - match: \b[A-Z_][A-Z_0-9]*\b
+      scope: support.constant.commander
+
+    # "URL like strings (http://name.org, ssh://111.22.33.4:42)"
+    - match: \b(?:(\w+\:\/\/[^,\s]+)|localhost)\b
+      scope: meta.url.commander constant.other.commander
+
+    # 'Colorize key in lines like: key = value or key: value or key value'
+    - match: ^\s*(\w[\w\-_]*)\s*(\:|=)?
+      scope: meta.param.commander
+      captures:
+        1: variable.parameter.commander
+        2: keyword.operator.commander
+
+    # RegExp
+    - match: \^.*\$
+      scope: string.regexp.commander
+
+    # Operators
+    - match: (!|\~|%|=|\^|\+|\-|\<|\>|\?|\/|\*|\\|\||\:|\.|\,)
+      scope: keyword.operator.commander
+
+    # Mime types (text/plain, application/x-javascript etc)
+    - match: \b(?<!/)[\w\-\.\+]+/[\w\-\.\+]+(?!/)\b
+      scope: support.type.commander
+
+  double_string:
+      - meta_scope: string.quoted.double.commander
+      - match: '"'
+        pop: true
+      - match: \\\s*"
+        scope: constant.character.commander
+
+  single_string:
+      - meta_scope: string.quoted.signle.commander
+      - match: "'"
+        pop: true
+      - match: \\\s*'
+        scope: constant.character.commander
+
+  quoted_double_string:
+      - meta_scope: string.quoted.qdouble.commander
+      - match: \\"
+        pop: true
+
+  quoted_single_string:
+      - meta_scope: string.quoted.qsignle.commander
+      - match: \\'
+        pop: true

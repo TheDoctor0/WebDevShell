@@ -100,7 +100,8 @@ class CommanderCommand(sublime_plugin.WindowCommand):
             self.window.run_command('exec', {
                 'cmd': self.args,
                 'shell': os.name == 'nt',
-                'working_dir': self.path
+                'working_dir': self.path,
+                'syntax': 'Packages/Commander/Commander.sublime-syntax' if self.settings.get('colored_output', True) is True else ''
             })
         except IOError:
             sublime.error_message('IOError - command aborted.')
