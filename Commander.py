@@ -91,8 +91,6 @@ class CommanderCommand(sublime_plugin.WindowCommand):
         self.on_done()
 
     def on_done(self):
-        sublime.status_message(' '.join(self.args))
-
         if os.name != 'posix':
             self.args = subprocess.list2cmdline(self.args)
 
@@ -105,6 +103,8 @@ class CommanderCommand(sublime_plugin.WindowCommand):
             })
         except IOError:
             sublime.error_message('IOError - command aborted.')
+
+        sublime.status_message(self.args)
 
         if self.settings.get('override_panel_settings', True) is True:
             self.preferences.set('show_panel_on_build', self.panel)
