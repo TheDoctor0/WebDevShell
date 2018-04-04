@@ -502,6 +502,14 @@
         }
     },
     {
+        "caption": "Commander: Composer Version",
+        "command": "commander",
+        "args": {
+            "type": "composer",
+            "command": "--version"
+        }
+    },
+    {
         "caption": "Commander: Composer Dump-Autoload",
         "command": "commander",
         "args": {
@@ -786,6 +794,14 @@
         }
     },
     {
+        "caption": "Commander: NPM Version",
+        "command": "commander",
+        "args": {
+            "type": "npm",
+            "command": "--version"
+        }
+    },
+    {
         "caption": "Commander: NPM Run Dev",
         "command": "commander",
         "args": {
@@ -815,6 +831,14 @@
         "args": {
             "type": "url",
             "href": "https://docs.npmjs.com",
+        }
+    },
+    {
+        "caption": "Commander: PHP Version",
+        "command": "commander",
+        "args": {
+            "type": "php",
+            "command": "--version",
         }
     },
 ]

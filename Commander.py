@@ -18,7 +18,6 @@ class CommanderCommand(sublime_plugin.WindowCommand):
 
             if self.panel is False:
                 self.preferences.set('show_panel_on_build', True)
-
         try:
             self.path = kwargs.get('path', self.window.folders()[0])
 
@@ -29,19 +28,16 @@ class CommanderCommand(sublime_plugin.WindowCommand):
             return
 
         self.args = []
+        self.url = kwargs.get('href', False)
         command_type = kwargs.get('type', None)
 
         if command_type is not None:
             if command_type == 'url':
-                url = kwargs.get('href', False)
-
-                if url is not False:
+                if self.url is not False:
                     if kwargs.get('additional', False) is True:
-                        view = self.window.active_view()
-                        selection = view.substr(view.sel()[0])
-                        webbrowser.open_new_tab(url + (selection if selection else sublime.get_clipboard()))
+                        self.window.show_input_panel('Enter search text:', '', self.on_command, None, None)
                     else:
-                        webbrowser.open_new_tab(url)
+                        webbrowser.open_new_tab(self.url)
                 else:
                     sublime.error_message('URL href is not specified.')
 
@@ -67,7 +63,7 @@ class CommanderCommand(sublime_plugin.WindowCommand):
             self.on_path()
 
     def on_path(self, command = None):
-        if command is not None:
+        if command:
             self.path = command
 
             if self.path_exists(self.path) is False:
@@ -78,13 +74,27 @@ class CommanderCommand(sublime_plugin.WindowCommand):
         else:
             self.on_command(self.command)
 
-    def on_command(self, command):
-        self.args.extend(shlex.split(str(command if self.command is None else self.command)))
+    def on_command(self, command = None):
+        if self.url is not False:
+            if not command:
+                view = self.window.active_view()
 
-        if self.additional is True:
-            self.window.show_input_panel(self.additional_label + ':', '', self.on_command_params, None, None)
+                for selection in view.sel():
+                    if not selection.empty():
+                        command = view.substr(selection)
+                        webbrowser.open_new_tab(self.url + command.replace(' ', '%20'))
+
+                if not command:
+                    webbrowser.open_new_tab(self.url)
+            else:
+                webbrowser.open_new_tab(self.url + command.replace(' ', '%20'))
         else:
-            self.on_done()
+            self.args.extend(shlex.split(str(command if self.command is None else self.command)))
+
+            if self.additional is True:
+                self.window.show_input_panel(self.additional_label + ':', '', self.on_command_params, None, None)
+            else:
+                self.on_done()
 
     def on_command_params(self, params):
         self.args.extend(shlex.split(str(params)))

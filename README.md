@@ -11,8 +11,8 @@ As you can see by default most commands are for Laravel project development, but
 - `Laravel Artisan` (all commands + documentation link)
 - `Composer` (all commands + documentation link)
 - `NPM` (run dev/production/watch + documentation link)
-- `StackOverflow Search` (search selected text or if empty from clipboard)
-- `Google Search` (search selected text or if empty from clipboard)
+- `StackOverflow Search` (text in search input or if empty from selected text)
+- `Google Search` (text in search input or if empty from selected text)
 - `Check Internet Connection` (ping 1.1.1.1)
 
 More will be added in the future. I am open to suggestions.
