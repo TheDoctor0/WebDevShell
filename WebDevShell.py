@@ -5,9 +5,9 @@ import sublime
 import sublime_plugin
 import webbrowser
 
-class WebDevShellCommand(sublime_plugin.WindowCommand):
+class WebdevshellCommand(sublime_plugin.WindowCommand):
     def __init__(self, *args, **kwargs):
-        super(WebDevShellCommand, self).__init__(*args, **kwargs)
+        super(WebdevshellCommand, self).__init__(*args, **kwargs)
 
     def run(self, *args, **kwargs):
         self.settings = sublime.load_settings('WebDevShell.sublime-settings')
