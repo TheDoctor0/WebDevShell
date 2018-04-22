@@ -5,9 +5,9 @@
         "children":
         [
             {
-                "caption": "Commander...",
+                "caption": "WebDevShell...",
                 "command": "show_overlay",
-                "args": {"overlay": "command_palette", "text": "Commander " }
+                "args": {"overlay": "command_palette", "text": "WebDevShell " }
             }
         ]
     },
@@ -24,22 +24,22 @@
                 "children":
                 [
                     {
-                        "caption": "Commander",
+                        "caption": "WebDevShell",
                         "children":
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/Commander/Commander.sublime-settings"},
+                                "args": {"file": "${packages}/WebDevShell/WebDevShell.sublime-settings"},
                                 "caption": "Settings – Default"
                             },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/User/Commander.sublime-settings"},
+                                "args": {"file": "${packages}/User/WebDevShell.sublime-settings"},
                                 "caption": "Settings – User"
                             },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/User/Commander.sublime-commands"},
+                                "args": {"file": "${packages}/User/WebDevShell.sublime-commands"},
                                 "caption": "Commands – User"
                             }
                         ]

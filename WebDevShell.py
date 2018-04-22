@@ -5,12 +5,12 @@ import sublime
 import sublime_plugin
 import webbrowser
 
-class CommanderCommand(sublime_plugin.WindowCommand):
+class WebDevShellCommand(sublime_plugin.WindowCommand):
     def __init__(self, *args, **kwargs):
-        super(CommanderCommand, self).__init__(*args, **kwargs)
+        super(WebDevShellCommand, self).__init__(*args, **kwargs)
 
     def run(self, *args, **kwargs):
-        self.settings = sublime.load_settings('Commander.sublime-settings')
+        self.settings = sublime.load_settings('WebDevShell.sublime-settings')
 
         if self.settings.get('override_panel_settings', True) is True:
             self.preferences = sublime.load_settings('Preferences.sublime-settings')
@@ -109,7 +109,7 @@ class CommanderCommand(sublime_plugin.WindowCommand):
                 'cmd': self.args,
                 'shell': os.name == 'nt',
                 'working_dir': self.path,
-                'syntax': 'Packages/Commander/Commander.sublime-syntax' if self.settings.get('colored_output', True) is True else ''
+                'syntax': 'Packages/WebDevShell/WebDevShell.sublime-syntax' if self.settings.get('colored_output', True) is True else ''
             })
         except IOError:
             sublime.error_message('IOError - command aborted.')
@@ -121,7 +121,7 @@ class CommanderCommand(sublime_plugin.WindowCommand):
 
     def path_exists(self, path, command = None):
         if path is None:
-            sublime.error_message('Please specify ' + command + '_path in Commander Settings.')
+            sublime.error_message('Please specify ' + command + '_path in WebDevShell Settings.')
             return False
         elif os.sep in path and os.path.exists(path) is False:
             sublime.error_message(('Command' if command is not None else 'Setting') + ' path "' + path + '" does not exists.')

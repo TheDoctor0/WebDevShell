@@ -1,19 +1,19 @@
 [
     {
-        "caption": "Commander: Custom Command",
-        "command": "commander",
+        "caption": "WebDevShell: Custom Command",
+        "command": "webdevshell",
     },
     {
-        "caption": "Commander: Custom Command (with parameters)",
-        "command": "commander",
+        "caption": "WebDevShell: Custom Command (with parameters)",
+        "command": "webdevshell",
         "args": {
             "additional": true,
             "additional_label": "Enter additional parameters"
         }
     },
     {
-        "caption": "Commander: Custom Command (with path and parameters)",
-        "command": "commander",
+        "caption": "WebDevShell: Custom Command (with path and parameters)",
+        "command": "webdevshell",
         "args": {
             "path": "changeable",
             "additional": true,
@@ -21,8 +21,8 @@
         }
     },
     {
-        "caption": "Commander: Stack Overflow Search",
-        "command": "commander",
+        "caption": "WebDevShell: Stack Overflow Search",
+        "command": "webdevshell",
         "args": {
             "type": "url",
             "href": "https://stackoverflow.com/search?q=",
@@ -30,8 +30,8 @@
         }
     },
     {
-        "caption": "Commander: Google Search",
-        "command": "commander",
+        "caption": "WebDevShell: Google Search",
+        "command": "webdevshell",
         "args": {
             "type": "url",
             "href": "https://google.com/search?q=",
@@ -39,31 +39,31 @@
         }
     },
     {
-        "caption": "Commander: Check Internet Connection",
-        "command": "commander",
+        "caption": "WebDevShell: Check Internet Connection",
+        "command": "webdevshell",
         "args": {
             "command": "ping 1.1.1.1"
         }
     },
     {
-        "caption": "Commander: Artisan Clear Compiled",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Clear Compiled",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "clear-compiled"
         }
     },
     {
-        "caption": "Commander: Artisan Down",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Down",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "down"
         }
     },
     {
-        "caption": "Commander: Artisan Help",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Help",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "help",
@@ -72,40 +72,40 @@
         }
     },
     {
-        "caption": "Commander: Artisan List",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan List",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "list"
         }
     },
     {
-        "caption": "Commander: Artisan Migrate",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Migrate",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "migrate"
         }
     },
     {
-        "caption": "Commander: Artisan Serve",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Serve",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "serve"
         }
     },
     {
-        "caption": "Commander: Artisan Up",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Up",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "up"
         }
     },
     {
-        "caption": "Commander: Artisan App:Name",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan App:Name",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "app:name",
@@ -114,72 +114,72 @@
         }
     },
     {
-        "caption": "Commander: Artisan Auth:Clear Resets",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Auth:Clear Resets",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "auth:clear-resets"
         }
     },
     {
-        "caption": "Commander: Artisan Cache:Clear",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Cache:Clear",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "cache:clear"
         }
     },
     {
-        "caption": "Commander: Artisan Cache:Table",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Cache:Table",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "cache:table"
         }
     },
     {
-        "caption": "Commander: Artisan Config:Cache",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Config:Cache",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "config:cache"
         }
     },
     {
-        "caption": "Commander: Artisan Config:Clear",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Config:Clear",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "config:clear"
         }
     },
     {
-        "caption": "Commander: Artisan DB:Seed",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan DB:Seed",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "db:seed"
         }
     },
     {
-        "caption": "Commander: Artisan Event:Generate",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Event:Generate",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "event:generate"
         }
     },
     {
-        "caption": "Commander: Artisan Key:Generate",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Key:Generate",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "key:generate"
         }
     },
     {
-        "caption": "Commander: Artisan Make:Auth",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Make:Auth",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "make:auth",
@@ -188,8 +188,8 @@
         }
     },
     {
-        "caption": "Commander: Artisan Make:Console",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Make:Console",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "make:console",
@@ -198,8 +198,8 @@
         }
     },
     {
-        "caption": "Commander: Artisan Make:Controller",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Make:Controller",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "make:controller",
@@ -208,8 +208,8 @@
         }
     },
     {
-        "caption": "Commander: Artisan Make:Event",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Make:Event",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "make:event",
@@ -218,8 +218,8 @@
         }
     },
     {
-        "caption": "Commander: Artisan Make:Job",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Make:Job",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "make:job",
@@ -228,8 +228,8 @@
         }
     },
     {
-        "caption": "Commander: Artisan Make:Listener",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Make:Listener",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "make:listener",
@@ -238,8 +238,8 @@
         }
     },
     {
-        "caption": "Commander: Artisan Make:Middleware",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Make:Middleware",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "make:middleware",
@@ -248,8 +248,8 @@
         }
     },
     {
-        "caption": "Commander: Artisan Make:Migration",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Make:Migration",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "make:migration",
@@ -258,8 +258,8 @@
         }
     },
     {
-        "caption": "Commander: Artisan Make:Model",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Make:Model",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "make:model",
@@ -268,8 +268,8 @@
         }
     },
     {
-        "caption": "Commander: Artisan Make:Provider",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Make:Provider",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "make:provider",
@@ -278,8 +278,8 @@
         }
     },
     {
-        "caption": "Commander: Artisan Make:Request",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Make:Request",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "make:request",
@@ -288,8 +288,8 @@
         }
     },
     {
-        "caption": "Commander: Artisan Make:Seeder",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Make:Seeder",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "make:seeder",
@@ -298,8 +298,8 @@
         }
     },
     {
-        "caption": "Commander: Artisan Make:Test",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Make:Test",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "make:test",
@@ -308,72 +308,72 @@
         }
     },
     {
-        "caption": "Commander: Artisan Migrate:Install",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Migrate:Install",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "migrate:install"
         }
     },
     {
-        "caption": "Commander: Artisan Migrate:Refresh",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Migrate:Refresh",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "migrate:refresh"
         }
     },
     {
-        "caption": "Commander: Artisan Migrate:Reset",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Migrate:Reset",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "migrate:reset"
         }
     },
     {
-        "caption": "Commander: Artisan Migrate:Rollback",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Migrate:Rollback",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "migrate:rollback"
         }
     },
     {
-        "caption": "Commander: Artisan Migrate:Status",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Migrate:Status",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "migrate:status"
         }
     },
     {
-        "caption": "Commander: Artisan Queue:List Failed Jobs",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Queue:List Failed Jobs",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "queue:failed"
         }
     },
     {
-        "caption": "Commander: Artisan Queue:Failed Table",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Queue:Failed Table",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "queue:failed-table"
         }
     },
     {
-        "caption": "Commander: Artisan Queue:Flush",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Queue:Flush",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "queue:flush"
         }
     },
     {
-        "caption": "Commander: Artisan Queue:Forget",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Queue:Forget",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "queue:flush",
@@ -382,8 +382,8 @@
         }
     },
     {
-        "caption": "Commander: Artisan Queue:Listen",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Queue:Listen",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "queue:listen",
@@ -392,24 +392,24 @@
         }
     },
     {
-        "caption": "Commander: Artisan Queue:Restart",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Queue:Restart",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "queue:restart"
         }
     },
     {
-        "caption": "Commander: Artisan Queue:Retry",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Queue:Retry",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "queue:retry"
         }
     },
     {
-        "caption": "Commander: Artisan Queue:Subscribe",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Queue:Subscribe",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "queue:subscribe",
@@ -418,16 +418,16 @@
         }
     },
     {
-        "caption": "Commander: Artisan Queue:Table",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Queue:Table",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "queue:table"
         }
     },
     {
-        "caption": "Commander: Artisan Queue:Work",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Queue:Work",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "queue:work",
@@ -436,48 +436,48 @@
         }
     },
     {
-        "caption": "Commander: Artisan Route:Cache",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Route:Cache",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "route:Cache"
         }
     },
     {
-        "caption": "Commander: Artisan Route:Clear",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Route:Clear",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "route:clear"
         }
     },
     {
-        "caption": "Commander: Artisan Route:List",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Route:List",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "route:list"
         }
     },
     {
-        "caption": "Commander: Artisan Schedule:Run",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Schedule:Run",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "schedule:run"
         }
     },
     {
-        "caption": "Commander: Artisan Session:Table",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Session:Table",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "session:table"
         }
     },
     {
-        "caption": "Commander: Artisan Vendor:Publish",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Vendor:Publish",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "vendor:publish",
@@ -486,40 +486,40 @@
         }
     },
     {
-        "caption": "Commander: Artisan View:Clear",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan View:Clear",
+        "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "view:clear"
         }
     },
     {
-        "caption": "Commander: Artisan Documentation",
-        "command": "commander",
+        "caption": "WebDevShell: Artisan Documentation",
+        "command": "webdevshell",
         "args": {
             "type": "url",
             "href": "https://laravel.com/docs/artisan",
         }
     },
     {
-        "caption": "Commander: Composer Version",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Version",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "--version"
         }
     },
     {
-        "caption": "Commander: Composer Dump-Autoload",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Dump-Autoload",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "dump-autoload"
         }
     },
     {
-        "caption": "Commander: Composer Init",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Init",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "init",
@@ -527,8 +527,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Install",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Install",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "install",
@@ -536,8 +536,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Install (Global)",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Install (Global)",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "global install",
@@ -545,8 +545,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Update",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Update",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "update",
@@ -554,8 +554,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Require",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Require",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "require",
@@ -563,8 +563,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Require (Global)",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Require (Global)",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "global require",
@@ -572,8 +572,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Remove",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Remove",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "require",
@@ -582,8 +582,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Remove (Global)",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Remove (Global)",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "global require",
@@ -592,8 +592,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Config",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Config",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "config",
@@ -601,8 +601,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Config (Global)",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Config (Global)",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "global config",
@@ -610,8 +610,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Search",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Search",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "search",
@@ -619,8 +619,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Show",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Show",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "show",
@@ -628,8 +628,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Outdated",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Outdated",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "outdated",
@@ -637,8 +637,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Browse",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Browse",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "browse",
@@ -646,8 +646,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Suggests",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Suggests",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "suggests",
@@ -655,8 +655,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Depends",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Depends",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "depends",
@@ -665,8 +665,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Prohibits",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Prohibits",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "prohibits",
@@ -675,8 +675,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Validate",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Validate",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "validate",
@@ -684,8 +684,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Status",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Status",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "status",
@@ -693,8 +693,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Self-Update",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Self-Update",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "self-update",
@@ -702,8 +702,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Create Project",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Create Project",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "create-project",
@@ -712,16 +712,16 @@
         }
     },
     {
-        "caption": "Commander: Composer Clear Cache",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Clear Cache",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "clear-cache",
         }
     },
     {
-        "caption": "Commander: Composer Licenses",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Licenses",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "licenses",
@@ -729,18 +729,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Run Script",
-        "command": "commander",
-        "args": {
-            "type": "composer",
-            "command": "licenses",
-            "additional": true,
-            "additional_label": "Enter the script name and additional parameters (optional)",
-        }
-    },
-    {
-        "caption": "Commander: Composer Run Script",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Run Script",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "licenses",
@@ -749,8 +739,18 @@
         }
     },
     {
-        "caption": "Commander: Composer Exec",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Run Script",
+        "command": "webdevshell",
+        "args": {
+            "type": "composer",
+            "command": "licenses",
+            "additional": true,
+            "additional_label": "Enter the script name and additional parameters (optional)",
+        }
+    },
+    {
+        "caption": "WebDevShell: Composer Exec",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "exec",
@@ -759,16 +759,16 @@
         }
     },
     {
-        "caption": "Commander: Composer Diagnose",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Diagnose",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "diagnose",
         }
     },
     {
-        "caption": "Commander: Composer Archive",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Archive",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "archive",
@@ -776,8 +776,8 @@
         }
     },
     {
-        "caption": "Commander: Composer Help",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Help",
+        "command": "webdevshell",
         "args": {
             "type": "composer",
             "command": "help",
@@ -786,56 +786,56 @@
         }
     },
     {
-        "caption": "Commander: Composer Documentation",
-        "command": "commander",
+        "caption": "WebDevShell: Composer Documentation",
+        "command": "webdevshell",
         "args": {
             "type": "url",
             "href": "https://getcomposer.org/doc",
         }
     },
     {
-        "caption": "Commander: NPM Version",
-        "command": "commander",
+        "caption": "WebDevShell: NPM Version",
+        "command": "webdevshell",
         "args": {
             "type": "npm",
             "command": "--version"
         }
     },
     {
-        "caption": "Commander: NPM Run Dev",
-        "command": "commander",
+        "caption": "WebDevShell: NPM Run Dev",
+        "command": "webdevshell",
         "args": {
             "type": "npm",
             "command": "run dev"
         }
     },
     {
-        "caption": "Commander: NPM Run Watch",
-        "command": "commander",
+        "caption": "WebDevShell: NPM Run Watch",
+        "command": "webdevshell",
         "args": {
             "type": "npm",
             "command": "run watch"
         }
     },
     {
-        "caption": "Commander: NPM Run Production",
-        "command": "commander",
+        "caption": "WebDevShell: NPM Run Production",
+        "command": "webdevshell",
         "args": {
             "type": "npm",
             "command": "run production"
         }
     },
     {
-        "caption": "Commander: NPM Documentation",
-        "command": "commander",
+        "caption": "WebDevShell: NPM Documentation",
+        "command": "webdevshell",
         "args": {
             "type": "url",
             "href": "https://docs.npmjs.com",
         }
     },
     {
-        "caption": "Commander: PHP Version",
-        "command": "commander",
+        "caption": "WebDevShell: PHP Version",
+        "command": "webdevshell",
         "args": {
             "type": "php",
             "command": "--version",
