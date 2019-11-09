@@ -26,6 +26,7 @@ Feel free to open pull request with additional commands.
 Use Package Controller or create a the directory `WebDevShell` in your Sublime Text Packages directory with source code from this repository.
 
 Update paths for types in `Preferences/Package Settings/WebDevShell/Settings – User` defined as `prefixname_path` settings.
+
 For example `"php_path": "php"`. You need to define `path` as global command or full path to binary file.
 
 ```json
