@@ -8,5 +8,6 @@
     "artisan_path": "artisan",
     "composer_path": "composer",
     "npm_path": "npm",
-    "yarn_path": "yarn"
+    "yarn_path": "yarn",
+    "python_path": "python",
 }
