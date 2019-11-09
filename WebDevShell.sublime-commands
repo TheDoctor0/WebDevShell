@@ -1,7 +1,6 @@
-[
-    {
+[{
         "caption": "WebDevShell: Custom Command",
-        "command": "webdevshell",
+        "command": "webdevshell"
     },
     {
         "caption": "WebDevShell: Custom Command (with parameters)",
@@ -26,7 +25,7 @@
         "args": {
             "type": "url",
             "href": "https://stackoverflow.com/search?q=",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -35,7 +34,7 @@
         "args": {
             "type": "url",
             "href": "https://google.com/search?q=",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -92,7 +91,7 @@
         "command": "webdevshell",
         "args": {
             "type": "php artisan",
-            "command": "migrate",
+            "command": "migrate"
         }
     },
     {
@@ -225,7 +224,7 @@
             "command": "event:generate"
         }
     },
-{
+    {
         "caption": "WebDevShell: Artisan Event:List",
         "command": "webdevshell",
         "args": {
@@ -476,7 +475,7 @@
         "command": "webdevshell",
         "args": {
             "type": "php artisan",
-            "command": "migrate:fresh",
+            "command": "migrate:fresh"
         }
     },
     {
@@ -666,7 +665,7 @@
         "command": "webdevshell",
         "args": {
             "type": "php artisan",
-            "command": "vendor:publish",
+            "command": "vendor:publish"
         }
     },
     {
@@ -690,7 +689,7 @@
         "command": "webdevshell",
         "args": {
             "type": "url",
-            "href": "https://laravel.com/docs/artisan",
+            "href": "https://laravel.com/docs/artisan"
         }
     },
     {
@@ -784,7 +783,7 @@
         "command": "webdevshell",
         "args": {
             "type": "composer",
-            "command": "check-platform-reqs",
+            "command": "check-platform-reqs"
         }
     },
     {
@@ -793,7 +792,7 @@
         "args": {
             "type": "composer",
             "command": "config",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -802,7 +801,7 @@
         "args": {
             "type": "composer",
             "command": "global config",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -811,7 +810,7 @@
         "args": {
             "type": "composer",
             "command": "global",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -820,7 +819,7 @@
         "args": {
             "type": "composer",
             "command": "search",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -829,7 +828,7 @@
         "args": {
             "type": "composer",
             "command": "show",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -838,7 +837,7 @@
         "args": {
             "type": "composer",
             "command": "outdated",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -847,7 +846,7 @@
         "args": {
             "type": "composer",
             "command": "browse",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -856,7 +855,7 @@
         "args": {
             "type": "composer",
             "command": "suggests",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -866,7 +865,7 @@
             "type": "composer",
             "command": "depends",
             "additional": true,
-            "additional_label": "Enter the package name and additional parameters (optional)",
+            "additional_label": "Enter the package name and additional parameters (optional)"
         }
     },
     {
@@ -876,7 +875,7 @@
             "type": "composer",
             "command": "prohibits",
             "additional": true,
-            "additional_label": "Enter the package name and additional parameters (optional)",
+            "additional_label": "Enter the package name and additional parameters (optional)"
         }
     },
     {
@@ -885,7 +884,7 @@
         "args": {
             "type": "composer",
             "command": "validate",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -894,7 +893,7 @@
         "args": {
             "type": "composer",
             "command": "status",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -903,7 +902,7 @@
         "args": {
             "type": "composer",
             "command": "self-update",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -913,7 +912,7 @@
             "type": "composer",
             "command": "create-project",
             "additional": true,
-            "additional_label": "Enter the project package name and additional parameters (optional)",
+            "additional_label": "Enter the project package name and additional parameters (optional)"
         }
     },
     {
@@ -929,7 +928,7 @@
         "command": "webdevshell",
         "args": {
             "type": "composer",
-            "command": "clear-cache",
+            "command": "clear-cache"
         }
     },
     {
@@ -938,7 +937,7 @@
         "args": {
             "type": "composer",
             "command": "licenses",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -948,7 +947,7 @@
             "type": "composer",
             "command": "run-script",
             "additional": true,
-            "additional_label": "Enter the script name and additional parameters (optional)",
+            "additional_label": "Enter the script name and additional parameters (optional)"
         }
     },
     {
@@ -958,7 +957,7 @@
             "type": "composer",
             "command": "exec",
             "additional": true,
-            "additional_label": "Enter the script/binary name",
+            "additional_label": "Enter the script/binary name"
         }
     },
     {
@@ -966,7 +965,7 @@
         "command": "webdevshell",
         "args": {
             "type": "composer",
-            "command": "diagnose",
+            "command": "diagnose"
         }
     },
     {
@@ -975,7 +974,7 @@
         "args": {
             "type": "composer",
             "command": "archive",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -985,7 +984,7 @@
             "type": "composer",
             "command": "help",
             "additional": true,
-            "additional_label": "Enter the command you need help with",
+            "additional_label": "Enter the command you need help with"
         }
     },
     {
@@ -993,7 +992,7 @@
         "command": "webdevshell",
         "args": {
             "type": "url",
-            "href": "https://getcomposer.org/doc",
+            "href": "https://getcomposer.org/doc"
         }
     },
     {
@@ -1011,7 +1010,7 @@
             "type": "npm",
             "command": "access",
             "additional": true,
-            "additional_label": "Enter the access level and names of packages",
+            "additional_label": "Enter the access level and names of packages"
         }
     },
     {
@@ -1021,7 +1020,7 @@
             "type": "npm",
             "command": "adduser",
             "additional": true,
-            "additional_label": "Enter the name of user and additional params",
+            "additional_label": "Enter the name of user and additional params"
         }
     },
     {
@@ -1029,7 +1028,7 @@
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "audit",
+            "command": "audit"
         }
     },
     {
@@ -1037,7 +1036,7 @@
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "bin",
+            "command": "bin"
         }
     },
     {
@@ -1047,7 +1046,7 @@
             "type": "npm",
             "command": "bugs",
             "additional": true,
-            "additional_label": "Enter the name of package",
+            "additional_label": "Enter the name of package"
         }
     },
     {
@@ -1055,7 +1054,7 @@
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "run-script build",
+            "command": "run-script build"
         }
     },
     {
@@ -1064,7 +1063,7 @@
         "args": {
             "type": "npm",
             "command": "cache",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1072,7 +1071,7 @@
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "ci",
+            "command": "ci"
         }
     },
     {
@@ -1081,7 +1080,7 @@
         "args": {
             "type": "npm",
             "command": "config",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1089,7 +1088,7 @@
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "dedupe",
+            "command": "dedupe"
         }
     },
     {
@@ -1098,7 +1097,7 @@
         "args": {
             "type": "npm",
             "command": "deprecache",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1107,7 +1106,7 @@
         "args": {
             "type": "npm",
             "command": "dist-tag",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1117,7 +1116,7 @@
             "type": "npm",
             "command": "docs",
             "additional": true,
-            "additional_label": "Enter the name of package",
+            "additional_label": "Enter the name of package"
         }
     },
     {
@@ -1135,7 +1134,7 @@
             "type": "npm",
             "command": "edit",
             "additional": true,
-            "additional_label": "Enter the name of package",
+            "additional_label": "Enter the name of package"
         }
     },
     {
@@ -1145,7 +1144,7 @@
             "type": "npm",
             "command": "explore",
             "additional": true,
-            "additional_label": "Enter the name of package",
+            "additional_label": "Enter the name of package"
         }
     },
     {
@@ -1155,7 +1154,7 @@
             "type": "npm",
             "command": "help-seatch",
             "additional": true,
-            "additional_label": "Enter the text to find",
+            "additional_label": "Enter the text to find"
         }
     },
     {
@@ -1165,7 +1164,7 @@
             "type": "npm",
             "command": "help-seatch",
             "additional": true,
-            "additional_label": "Enter the term to show help",
+            "additional_label": "Enter the term to show help"
         }
     },
     {
@@ -1174,7 +1173,7 @@
         "args": {
             "type": "npm",
             "command": "hook",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1183,7 +1182,7 @@
         "args": {
             "type": "npm",
             "command": "init",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1191,7 +1190,7 @@
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "install-ci-test",
+            "command": "install-ci-test"
         }
     },
     {
@@ -1200,7 +1199,7 @@
         "args": {
             "type": "npm",
             "command": "install-test",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1209,7 +1208,7 @@
         "args": {
             "type": "npm",
             "command": "install",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1217,7 +1216,7 @@
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "link",
+            "command": "link"
         }
     },
     {
@@ -1225,7 +1224,7 @@
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "link",
+            "command": "link"
         }
     },
     {
@@ -1233,7 +1232,7 @@
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "ls",
+            "command": "ls"
         }
     },
     {
@@ -1242,7 +1241,7 @@
         "args": {
             "type": "npm",
             "command": "org",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1250,7 +1249,7 @@
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "outdated",
+            "command": "outdated"
         }
     },
     {
@@ -1259,7 +1258,7 @@
         "args": {
             "type": "npm",
             "command": "owner",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1268,7 +1267,7 @@
         "args": {
             "type": "npm",
             "command": "pack",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1276,7 +1275,7 @@
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "ping",
+            "command": "ping"
         }
     },
     {
@@ -1284,7 +1283,7 @@
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "prefix",
+            "command": "prefix"
         }
     },
     {
@@ -1293,7 +1292,7 @@
         "args": {
             "type": "npm",
             "command": "pack",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1302,7 +1301,7 @@
         "args": {
             "type": "npm",
             "command": "prune",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1311,7 +1310,7 @@
         "args": {
             "type": "npm",
             "command": "publish",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1320,7 +1319,7 @@
         "args": {
             "type": "npm",
             "command": "rebuild",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1329,7 +1328,7 @@
         "args": {
             "type": "npm",
             "command": "repo",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1338,7 +1337,7 @@
         "args": {
             "type": "npm",
             "command": "publish",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1346,7 +1345,7 @@
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "publish",
+            "command": "publish"
         }
     },
     {
@@ -1356,7 +1355,7 @@
             "type": "npm",
             "command": "search",
             "additional": true,
-            "additional_label": "Enter the package or term to find",
+            "additional_label": "Enter the package or term to find"
         }
     },
     {
@@ -1364,7 +1363,7 @@
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "shrinkwrap",
+            "command": "shrinkwrap"
         }
     },
     {
@@ -1373,7 +1372,7 @@
         "args": {
             "type": "npm",
             "command": "publish",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1381,7 +1380,7 @@
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "publish",
+            "command": "publish"
         }
     },
     {
@@ -1390,7 +1389,7 @@
         "args": {
             "type": "npm",
             "command": "publish",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1399,7 +1398,7 @@
         "args": {
             "type": "npm",
             "command": "publish",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1408,7 +1407,7 @@
         "args": {
             "type": "npm",
             "command": "team",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1417,7 +1416,7 @@
         "args": {
             "type": "npm",
             "command": "test",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1426,7 +1425,7 @@
         "args": {
             "type": "npm",
             "command": "token",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1436,7 +1435,7 @@
             "type": "npm",
             "command": "uninstall",
             "additional": true,
-            "additional_label": "Enter the name of package to remove",
+            "additional_label": "Enter the name of package to remove"
         }
     },
     {
@@ -1445,7 +1444,7 @@
         "args": {
             "type": "npm",
             "command": "unpublish",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1454,7 +1453,7 @@
         "args": {
             "type": "npm",
             "command": "update",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1463,7 +1462,7 @@
         "args": {
             "type": "npm",
             "command": "version",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1472,7 +1471,7 @@
         "args": {
             "type": "npm",
             "command": "view",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1480,7 +1479,7 @@
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "whoami",
+            "command": "whoami"
         }
     },
     {
@@ -1488,7 +1487,7 @@
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "run dev",
+            "command": "run dev"
         }
     },
     {
@@ -1512,7 +1511,7 @@
         "command": "webdevshell",
         "args": {
             "type": "url",
-            "href": "https://docs.npmjs.com",
+            "href": "https://docs.npmjs.com"
         }
     },
     {
@@ -1521,7 +1520,7 @@
         "args": {
             "type": "yarn",
             "command": "add",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1529,7 +1528,7 @@
         "command": "webdevshell",
         "args": {
             "type": "yarn",
-            "command": "audit",
+            "command": "audit"
         }
     },
     {
@@ -1538,7 +1537,7 @@
         "args": {
             "type": "yarn",
             "command": "autoclean",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1546,7 +1545,7 @@
         "command": "webdevshell",
         "args": {
             "type": "yarn",
-            "command": "bin",
+            "command": "bin"
         }
     },
     {
@@ -1555,7 +1554,7 @@
         "args": {
             "type": "yarn",
             "command": "cache",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1564,7 +1563,7 @@
         "args": {
             "type": "yarn",
             "command": "check",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1573,7 +1572,7 @@
         "args": {
             "type": "yarn",
             "command": "config",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1582,7 +1581,7 @@
         "args": {
             "type": "yarn",
             "command": "create",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1590,7 +1589,7 @@
         "command": "webdevshell",
         "args": {
             "type": "yarn",
-            "command": "generate-lock-entry",
+            "command": "generate-lock-entry"
         }
     },
     {
@@ -1608,7 +1607,7 @@
         "command": "webdevshell",
         "args": {
             "type": "yarn",
-            "command": "help",
+            "command": "help"
         }
     },
     {
@@ -1616,7 +1615,7 @@
         "command": "webdevshell",
         "args": {
             "type": "yarn",
-            "command": "import",
+            "command": "import"
         }
     },
     {
@@ -1625,7 +1624,7 @@
         "args": {
             "type": "yarn",
             "command": "info",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1634,7 +1633,7 @@
         "args": {
             "type": "yarn",
             "command": "init",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1643,7 +1642,7 @@
         "args": {
             "type": "yarn",
             "command": "install",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1652,7 +1651,7 @@
         "args": {
             "type": "yarn",
             "command": "licenses",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1661,7 +1660,7 @@
         "args": {
             "type": "yarn",
             "command": "link",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1670,7 +1669,7 @@
         "args": {
             "type": "yarn",
             "command": "list",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1678,7 +1677,7 @@
         "command": "webdevshell",
         "args": {
             "type": "yarn",
-            "command": "lockfile",
+            "command": "lockfile"
         }
     },
     {
@@ -1687,7 +1686,7 @@
         "args": {
             "type": "yarn",
             "command": "login",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1696,7 +1695,7 @@
         "args": {
             "type": "yarn",
             "command": "logout",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1704,7 +1703,7 @@
         "command": "webdevshell",
         "args": {
             "type": "yarn",
-            "command": "outdated",
+            "command": "outdated"
         }
     },
     {
@@ -1713,7 +1712,7 @@
         "args": {
             "type": "yarn",
             "command": "owner",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1722,7 +1721,7 @@
         "args": {
             "type": "yarn",
             "command": "pack",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1731,7 +1730,7 @@
         "args": {
             "type": "yarn",
             "command": "policies",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1739,7 +1738,7 @@
         "command": "webdevshell",
         "args": {
             "type": "yarn",
-            "command": "prune",
+            "command": "prune"
         }
     },
     {
@@ -1748,7 +1747,7 @@
         "args": {
             "type": "yarn",
             "command": "publish",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1757,7 +1756,7 @@
         "args": {
             "type": "yarn",
             "command": "add",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1766,7 +1765,7 @@
         "args": {
             "type": "yarn",
             "command": "run",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1775,7 +1774,7 @@
         "args": {
             "type": "yarn",
             "command": "self-update",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1784,7 +1783,7 @@
         "args": {
             "type": "yarn",
             "command": "tag",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1793,7 +1792,7 @@
         "args": {
             "type": "yarn",
             "command": "team",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1802,7 +1801,7 @@
         "args": {
             "type": "yarn",
             "command": "test",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1811,7 +1810,7 @@
         "args": {
             "type": "yarn",
             "command": "unlink",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1820,7 +1819,7 @@
         "args": {
             "type": "yarn",
             "command": "upgrade",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1828,7 +1827,7 @@
         "command": "webdevshell",
         "args": {
             "type": "yarn",
-            "command": "upgrade-interactive",
+            "command": "upgrade-interactive"
         }
     },
     {
@@ -1836,7 +1835,7 @@
         "command": "webdevshell",
         "args": {
             "type": "yarn",
-            "command": "version",
+            "command": "version"
         }
     },
     {
@@ -1844,7 +1843,7 @@
         "command": "webdevshell",
         "args": {
             "type": "yarn",
-            "command": "versions",
+            "command": "versions"
         }
     },
     {
@@ -1853,7 +1852,7 @@
         "args": {
             "type": "yarn",
             "command": "workspace",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1862,7 +1861,7 @@
         "args": {
             "type": "yarn",
             "command": "workspaces",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1870,7 +1869,7 @@
         "command": "webdevshell",
         "args": {
             "type": "yarn",
-            "command": "run dev",
+            "command": "run dev"
         }
     },
     {
@@ -1894,7 +1893,7 @@
         "command": "webdevshell",
         "args": {
             "type": "url",
-            "href": "https://yarnpkg.com/en/docs",
+            "href": "https://yarnpkg.com/en/docs"
         }
     },
     {
@@ -1902,15 +1901,16 @@
         "command": "webdevshell",
         "args": {
             "type": "php",
-            "command": "--version",
+            "command": "--version"
         }
-    }{
+    },
+    {
         "caption": "WebDevShell: PHP Command",
         "command": "webdevshell",
         "args": {
             "type": "php",
             "command": "",
-            "additional": true,
+            "additional": true
         }
     },
     {
@@ -1918,7 +1918,96 @@
         "command": "webdevshell",
         "args": {
             "type": "url",
-            "href": "https://www.php.net/manual/en",
+            "href": "https://www.php.net/manual/en"
         }
     },
+    {
+        "caption": "WebDevShell: PHPUnit Test",
+        "command": "webdevshell",
+        "args": {
+            "command": "./vendor/bin/phpunit",
+            "additional": true
+        }
+    },
+    {
+        "caption": "WebDevShell: PHPUnit Documentation",
+        "command": "webdevshell",
+        "args": {
+            "type": "url",
+            "href": "https://phpunit.readthedocs.io"
+        }
+    },
+    {
+        "caption": "WebDevShell: PHPStan Command",
+        "command": "webdevshell",
+        "args": {
+            "command": "./vendor/bin/phpstan",
+            "additional": true
+        }
+    },
+    {
+        "caption": "WebDevShell: PHPStan Analyze",
+        "command": "webdevshell",
+        "args": {
+            "command": "./vendor/bin/phpstan analyze",
+            "additional": true
+        }
+    },
+    {
+        "caption": "WebDevShell: PHPStan Documentation",
+        "command": "webdevshell",
+        "args": {
+            "type": "url",
+            "href": "https://github.com/phpstan/phpstan"
+        }
+    },
+    {
+        "caption": "WebDevShell: PHP Psalm Analyze",
+        "command": "webdevshell",
+        "args": {
+            "command": "./vendor/bin/psalm",
+            "additional": true
+        }
+    },
+    {
+        "caption": "WebDevShell: PHP Psalm Documentation",
+        "command": "webdevshell",
+        "args": {
+            "type": "url",
+            "href": "https://psalm.dev/docs"
+        }
+    },
+    {
+        "caption": "WebDevShell: ESLint Analyze",
+        "command": "webdevshell",
+        "args": {
+            "command": "./node_modules/.bin/eslint",
+            "additional": true
+        }
+    },
+    {
+        "caption": "WebDevShell: ESLint Documentation",
+        "command": "webdevshell",
+        "args": {
+            "type": "url",
+            "href": "https://eslint.org/docs/user-guide"
+        }
+    },
+    {
+        "caption": "WebDevShell: Python Documentation",
+        "command": "webdevshell",
+        "args": {
+            "type": "url",
+            "href": "https://docs.python.org/3"
+        }
+    },
+    {
+        "caption": "WebDevShell: Python Command",
+        "command": "webdevshell",
+        "args": {
+            "type": "python",
+            "command": "",
+            "additional": true
+        }
+    }
 ]
