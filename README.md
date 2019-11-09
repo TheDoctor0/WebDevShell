@@ -1,6 +1,6 @@
 # WebDevShell [![StyleCI](https://github.styleci.io/repos/127345708/shield?branch=master&style=flat)](https://github.styleci.io/repos/127345708) [![Downloads](https://img.shields.io/packagecontrol/dt/WebDevShell.svg?color=sucess)](https://img.shields.io/packagecontrol/dt/WebDevShell.svg?color=sucess&style=plastic) [![License](https://img.shields.io/github/license/TheDoctor0/WebDevShell.svg?color=sucess)](https://img.shields.io/github/license/TheDoctor0/WebDevShell.svg?color=sucess&style=plastic)
 
-WebDevShell is a Sublime Text 3 plugin for executing shell commands related to web apps development.
+Sublime Text 3 plugin for executing shell commands related to web apps development: Laravel Artisan, Composer, NPM, Yarn, Python, PHP, PHPStan, Psalm, ESLint and more!
 
 I created it because constant switching between Sublime and terminal while working on my project was just frustrating.
 
