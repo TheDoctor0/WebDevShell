@@ -946,7 +946,7 @@
         "command": "webdevshell",
         "args": {
             "type": "composer",
-            "command": "licenses",
+            "command": "run-script",
             "additional": true,
             "additional_label": "Enter the script name and additional parameters (optional)",
         }
@@ -1005,11 +1005,490 @@
         }
     },
     {
+        "caption": "WebDevShell: NPM Access",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "access",
+            "additional": true,
+            "additional_label": "Enter the access level and names of packages",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Add User",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "adduser",
+            "additional": true,
+            "additional_label": "Enter the name of user and additional params",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Audit",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "audit",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Bin",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "bin",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Bugs",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "bugs",
+            "additional": true,
+            "additional_label": "Enter the name of package",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Build",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "run-script build",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Cache",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "cache",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM CI",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "ci",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Config",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "config",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Dedupe",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "dedupe",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Deprecache",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "deprecache",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Dist Tag",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "dist-tag",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Docs",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "docs",
+            "additional": true,
+            "additional_label": "Enter the name of package",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Doctor",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "run doctor"
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Edit",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "edit",
+            "additional": true,
+            "additional_label": "Enter the name of package",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Explore",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "explore",
+            "additional": true,
+            "additional_label": "Enter the name of package",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Help Search",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "help-seatch",
+            "additional": true,
+            "additional_label": "Enter the text to find",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Help",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "help-seatch",
+            "additional": true,
+            "additional_label": "Enter the term to show help",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Hook",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "hook",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Init",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "init",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Install CI Test",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "install-ci-test",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Install Test",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "install-test",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Install",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "install",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Link",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "link",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Logout",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "link",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM List",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "ls",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Org",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "org",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Outdated",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "outdated",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Owner",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "owner",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Pack",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "pack",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Ping",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "ping",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Prefix",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "prefix",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Profile",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "pack",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Prune",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "prune",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Publish",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "publish",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Rebuild",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "rebuild",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Repo",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "repo",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Restart",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "publish",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Root",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "publish",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Search",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "search",
+            "additional": true,
+            "additional_label": "Enter the package or term to find",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Shrinkwrap",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "shrinkwrap",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Star",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "publish",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Stars",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "publish",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Start",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "publish",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Stop",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "publish",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Team",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "team",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Test",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "test",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Token",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "token",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Uninstall",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "uninstall",
+            "additional": true,
+            "additional_label": "Enter the name of package to remove",
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Unpublish",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "unpublish",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Update",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "update",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Version",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "version",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM View",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "view",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: NPM Who Am I",
+        "command": "webdevshell",
+        "args": {
+            "type": "npm",
+            "command": "whoami",
+        }
+    },
+    {
         "caption": "WebDevShell: NPM Run Dev",
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "run dev"
+            "command": "run dev",
         }
     },
     {
@@ -1025,7 +1504,7 @@
         "command": "webdevshell",
         "args": {
             "type": "npm",
-            "command": "run production"
+            "command": "run prod"
         }
     },
     {
