@@ -702,14 +702,6 @@
         }
     },
     {
-        "caption": "WebDevShell: Composer Dump-Autoload",
-        "command": "webdevshell",
-        "args": {
-            "type": "composer",
-            "command": "dump-autoload"
-        }
-    },
-    {
         "caption": "WebDevShell: Composer Init",
         "command": "webdevshell",
         "args": {
@@ -788,6 +780,14 @@
         }
     },
     {
+        "caption": "WebDevShell: Composer Check Platform Requirements",
+        "command": "webdevshell",
+        "args": {
+            "type": "composer",
+            "command": "check-platform-reqs",
+        }
+    },
+    {
         "caption": "WebDevShell: Composer Config",
         "command": "webdevshell",
         "args": {
@@ -802,6 +802,15 @@
         "args": {
             "type": "composer",
             "command": "global config",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Composer Global",
+        "command": "webdevshell",
+        "args": {
+            "type": "composer",
+            "command": "global",
             "additional": true,
         }
     },
@@ -908,6 +917,14 @@
         }
     },
     {
+        "caption": "WebDevShell: Composer Dump-Autoload",
+        "command": "webdevshell",
+        "args": {
+            "type": "composer",
+            "command": "dump-autoload"
+        }
+    },
+    {
         "caption": "WebDevShell: Composer Clear Cache",
         "command": "webdevshell",
         "args": {
@@ -922,16 +939,6 @@
             "type": "composer",
             "command": "licenses",
             "additional": true,
-        }
-    },
-    {
-        "caption": "WebDevShell: Composer Run Script",
-        "command": "webdevshell",
-        "args": {
-            "type": "composer",
-            "command": "licenses",
-            "additional": true,
-            "additional_label": "Enter the script name and additional parameters (optional)",
         }
     },
     {
