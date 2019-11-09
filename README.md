@@ -11,7 +11,12 @@ Commands available out of the box are mostly related Laravel based project devel
 - `Composer` (all commands, documentation link)
 - `NPM` (all commands, dev/prod/watch, documentation link)
 - `Yarn` (all commands, dev/prod/watch, documentation link)
-- `PHP` (general command, version, documentation link)
+- `Python` (general command, version command, documentation link)
+- `PHP` (general command, version command, documentation link)
+- `PHPStan` (general command, analysis command, documentation link)
+- `PHP Psalm` (analysis command, documentation link)
+- `ESLint` (analysis command, documentation link)
+- `Python` (general command, version command, documentation link)
 - `StackOverflow Search` (text in search input or if empty from selected text)
 - `Google Search` (text in search input or if empty from selected text)
 - `Check Internet Connection` (ping 1.1.1.1)
@@ -21,7 +26,42 @@ Feel free to open pull request with additional commands.
 ### Custom commands
 To add custom commands use `Preferences/Package Settings/WebDevShell/Commands – User` menu item.
 
-#### Custom command structure:
+#### Custom alias command:
+
+```json
+{
+    "caption": "WebDevShell: Custom Alias",
+    "command": "webdevshell",
+    "args": {
+        "command": "some_long_command_with_params --param value",
+        "additional": true,
+    }
+}
+```
+
+All you have to do is set command that you want to execute.
+
+Argument `additional` is optional and you can remove it, it enables input that will be added after the command.
+
+#### Custom url command structure:
+
+```json
+{
+    "caption": "WebDevShell: Google Search",
+    "command": "webdevshell",
+    "args": {
+        "type": "url",
+        "href": "https://google.com/search?q=",
+        "additional": true,
+    }
+}
+```
+
+If you want to define url command you have to set `"type": "url"` and specify link in `href`.
+
+Argument `additional` is optional and you can remove it, it enables adding selected text or if empty from clipboard to the end of url.
+
+#### Full custom command structure:
 
 ```json
 {
@@ -52,24 +92,6 @@ To set message for this input set `additional_label`.
 - `path` is a location where your command will be executed.
 You can add any path here or set it to `changeable` so there will be option to insert path every time you execute that command.
 If no path is defined, command will be executed in project root directory.
-
-#### Custom url command structure:
-
-```json
-{
-    "caption": "WebDevShell: Google Search",
-    "command": "webdevshell",
-    "args": {
-        "type": "url",
-        "href": "https://google.com/search?q=",
-        "additional": true,
-    }
-}
-```
-
-If you want to define url command you have to set `"type": "url"` and specify link in `href`.
-
-Argument `additional` is optional and you can remove it, it enables adding selected text or if empty from clipboard to the end of url.
 
 ### Installation:
 Use Package Controller or create a the directory `WebDevShell` in your Sublime Text Packages directory with source code from this repository.
