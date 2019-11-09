@@ -10,4 +10,8 @@
     "npm_path": "npm",
     "yarn_path": "yarn",
     "python_path": "python",
+    "phpunit_path": "./vendor/bin/phpunit",
+    "phpstan_path": "./vendor/bin/phpstan",
+    "psalm_path": "./vendor/bin/psalm",
+    "eslint_path": "./node_modules/.bin/eslint"
 }
