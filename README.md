@@ -1,20 +1,22 @@
-# WebDevShell [![StyleCI](https://github.styleci.io/repos/127345708/shield?branch=master&style=flat)](https://github.styleci.io/repos/127345708) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/TheDoctor0/WebDevShell/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/TheDoctor0/WebDevShell/?branch=master) [![Downloads](https://img.shields.io/packagecontrol/dt/WebDevShell.svg?color=sucess)](https://img.shields.io/packagecontrol/dt/WebDevShell.svg?color=sucess&style=plastic) [![License](https://img.shields.io/github/license/TheDoctor0/WebDevShell.svg?color=sucess)](https://img.shields.io/github/license/TheDoctor0/WebDevShell.svg?color=sucess&style=plastic)
+# WebDevShell [![StyleCI](https://github.styleci.io/repos/127345708/shield?branch=master&style=flat)](https://github.styleci.io/repos/127345708) [![Downloads](https://img.shields.io/packagecontrol/dt/WebDevShell.svg?color=sucess)](https://img.shields.io/packagecontrol/dt/WebDevShell.svg?color=sucess&style=plastic) [![License](https://img.shields.io/github/license/TheDoctor0/WebDevShell.svg?color=sucess)](https://img.shields.io/github/license/TheDoctor0/WebDevShell.svg?color=sucess&style=plastic)
 
-WebDevShell is a plugin for executing shell commands related to web apps development in Sublime Text.
+WebDevShell is a Sublime Text 3 plugin for executing shell commands related to web apps development.
 
-I created it because constant window changing while working on my project was just frustrating.
+I created it because constant switching between Sublime and terminal while working on my project was just frustrating.
 
-As you can see by default most commands are for Laravel project development, but you can add custom commands.
+Commands available out of the box are mostly related Laravel based project development, but custom commands can be easily added.
 
 ### Available commands:
-- `Laravel Artisan` (all commands + documentation link)
-- `Composer` (all commands + documentation link)
-- `NPM` (run dev/production/watch + documentation link)
+- `Laravel Artisan` (all commands, documentation link)
+- `Composer` (all commands, documentation link)
+- `NPM` (all commands, dev/prod/watch, documentation link)
+- `Yarn` (all commands, dev/prod/watch, documentation link)
+- `PHP` (general command, version, documentation link)
 - `StackOverflow Search` (text in search input or if empty from selected text)
 - `Google Search` (text in search input or if empty from selected text)
 - `Check Internet Connection` (ping 1.1.1.1)
 
-More will be added in the future. I am open to suggestions.
+Feel free to open pull request with additional commands.
 
 ### Custom commands
 To add custom commands use `Preferences/Package Settings/WebDevShell/Commands â€“ User` menu item.
@@ -22,17 +24,17 @@ To add custom commands use `Preferences/Package Settings/WebDevShell/Commands â€
 #### Custom command structure:
 
 ```json
-    {
-        "caption": "WebDevShell: Custom Artisan Command (with path and parameters)",
-        "command": "webdevshell",
-        "args": {
-            "type": "php artisan",
-            "path": "changeable",
-            "command": "test",
-            "additional": true,
-            "additional_label": "Enter additional parameters"
-        }
-    },
+{
+    "caption": "WebDevShell: Custom Artisan Command (with path and parameters)",
+    "command": "webdevshell",
+    "args": {
+        "type": "php artisan",
+        "path": "changeable",
+        "command": "test",
+        "additional": true,
+        "additional_label": "Enter additional parameters"
+    }
+}
 ```
 
 All `args` are optional and you can remove them.
@@ -54,15 +56,15 @@ If no path is defined, command will be executed in project root directory.
 #### Custom url command structure:
 
 ```json
-    {
-        "caption": "WebDevShell: Google Search",
-        "command": "webdevshell",
-        "args": {
-            "type": "url",
-            "href": "https://google.com/search?q=",
-            "additional": true,
-        }
-    },
+{
+    "caption": "WebDevShell: Google Search",
+    "command": "webdevshell",
+    "args": {
+        "type": "url",
+        "href": "https://google.com/search?q=",
+        "additional": true,
+    }
+}
 ```
 
 If you want to define url command you have to set `"type": "url"` and specify link in `href`.
