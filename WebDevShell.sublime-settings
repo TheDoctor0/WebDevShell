@@ -7,5 +7,6 @@
     "php_path": "php",
     "artisan_path": "artisan",
     "composer_path": "composer",
-    "npm_path": "npm"
+    "npm_path": "npm",
+    "yarn_path": "yarn"
 }

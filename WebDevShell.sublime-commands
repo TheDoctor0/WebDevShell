@@ -1516,11 +1516,409 @@
         }
     },
     {
+        "caption": "WebDevShell: Yarn Add",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "add",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Audit",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "audit",
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Autoclean",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "autoclean",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Bin",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "bin",
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Cache",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "cache",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Check",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "check",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Config",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "config",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Create",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "create",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Generate Lock Entry",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "generate-lock-entry",
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Global",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "global",
+            "additional": true,
+            "additional_label": "Enter command to execute globally"
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Help",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "help",
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Import",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "import",
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Info",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "info",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Init",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "init",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Install",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "install",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Licenses",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "licenses",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Link",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "link",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn List",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "list",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Lockfile",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "lockfile",
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Login",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "login",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Logout",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "logout",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Outdated",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "outdated",
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Owner",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "owner",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Pack",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "pack",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Policies",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "policies",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Prune",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "prune",
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Publish",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "publish",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Remove",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "add",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Run",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "run",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Self-Update",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "self-update",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Tag",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "tag",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Team",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "team",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Test",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "test",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Unlink",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "unlink",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Upgrade",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "upgrade",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Upgrade Interactive",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "upgrade-interactive",
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Version",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "version",
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Versions",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "versions",
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Workspace",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "workspace",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Workspaces",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "workspaces",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Run Dev",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "run dev",
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Run Watch",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "run watch"
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Run Production",
+        "command": "webdevshell",
+        "args": {
+            "type": "yarn",
+            "command": "run prod"
+        }
+    },
+    {
+        "caption": "WebDevShell: Yarn Documentation",
+        "command": "webdevshell",
+        "args": {
+            "type": "url",
+            "href": "https://yarnpkg.com/en/docs",
+        }
+    },
+    {
         "caption": "WebDevShell: PHP Version",
         "command": "webdevshell",
         "args": {
             "type": "php",
             "command": "--version",
+        }
+    }{
+        "caption": "WebDevShell: PHP Command",
+        "command": "webdevshell",
+        "args": {
+            "type": "php",
+            "command": "",
+            "additional": true,
+        }
+    },
+    {
+        "caption": "WebDevShell: PHP Documentation",
+        "command": "webdevshell",
+        "args": {
+            "type": "url",
+            "href": "https://www.php.net/manual/en",
         }
     },
 ]
