@@ -62,6 +62,14 @@
         }
     },
     {
+        "caption": "WebDevShell: Artisan Env",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "env"
+        }
+    },
+    {
         "caption": "WebDevShell: Artisan Help",
         "command": "webdevshell",
         "args": {
@@ -84,7 +92,23 @@
         "command": "webdevshell",
         "args": {
             "type": "php artisan",
-            "command": "migrate"
+            "command": "migrate",
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan Optimize",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "optimize"
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan Preset",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "preset"
         }
     },
     {
@@ -96,21 +120,19 @@
         }
     },
     {
+        "caption": "WebDevShell: Artisan Tinker",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "tinker"
+        }
+    },
+    {
         "caption": "WebDevShell: Artisan Up",
         "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "up"
-        }
-    },
-    {
-        "caption": "WebDevShell: Artisan App:Name",
-        "command": "webdevshell",
-        "args": {
-            "type": "php artisan",
-            "command": "app:name",
-            "additional": true,
-            "additional_label": "Enter your desired namespace"
         }
     },
     {
@@ -127,6 +149,16 @@
         "args": {
             "type": "php artisan",
             "command": "cache:clear"
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan Cache:Forget",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "cache:forget",
+            "additional": true,
+            "additional_label": "Enter the cache key to forget"
         }
     },
     {
@@ -162,11 +194,43 @@
         }
     },
     {
+        "caption": "WebDevShell: Artisan DB:Wipe",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "db:wipe"
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan Event:Cache",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "event:cache"
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan Event:Clear",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "event:clear"
+        }
+    },
+    {
         "caption": "WebDevShell: Artisan Event:Generate",
         "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "event:generate"
+        }
+    },
+{
+        "caption": "WebDevShell: Artisan Event:List",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "event:list"
         }
     },
     {
@@ -178,23 +242,23 @@
         }
     },
     {
-        "caption": "WebDevShell: Artisan Make:Auth",
+        "caption": "WebDevShell: Artisan Make:Channel",
         "command": "webdevshell",
         "args": {
             "type": "php artisan",
-            "command": "make:auth",
+            "command": "make:channel",
             "additional": true,
-            "additional_label": "Enter make:auth options (optional)"
+            "additional_label": "Enter the name of new channel class"
         }
     },
     {
-        "caption": "WebDevShell: Artisan Make:Console",
+        "caption": "WebDevShell: Artisan Make:Command",
         "command": "webdevshell",
         "args": {
             "type": "php artisan",
-            "command": "make:console",
+            "command": "make:command",
             "additional": true,
-            "additional_label": "Enter the name of the command class"
+            "additional_label": "Enter the name of new command class"
         }
     },
     {
@@ -204,7 +268,7 @@
             "type": "php artisan",
             "command": "make:controller",
             "additional": true,
-            "additional_label": "Enter the name of the controller class"
+            "additional_label": "Enter the name of new controller class"
         }
     },
     {
@@ -214,7 +278,47 @@
             "type": "php artisan",
             "command": "make:event",
             "additional": true,
-            "additional_label": "Enter the name of the event class"
+            "additional_label": "Enter the name of new event class"
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan Make:Exception",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "make:exception",
+            "additional": true,
+            "additional_label": "Enter the name of new exception class"
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan Make:Export",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "make:export",
+            "additional": true,
+            "additional_label": "Enter the name of new export class"
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan Make:Factory",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "make:factory",
+            "additional": true,
+            "additional_label": "Enter the name of new factory class"
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan Make:Import",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "make:import",
+            "additional": true,
+            "additional_label": "Enter the name of new import class"
         }
     },
     {
@@ -224,7 +328,7 @@
             "type": "php artisan",
             "command": "make:job",
             "additional": true,
-            "additional_label": "Enter the name of the job class"
+            "additional_label": "Enter the name of new job class"
         }
     },
     {
@@ -234,7 +338,17 @@
             "type": "php artisan",
             "command": "make:listener",
             "additional": true,
-            "additional_label": "Enter the name of the listener class"
+            "additional_label": "Enter the name of new listener class"
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan Make:Mail",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "make:mail",
+            "additional": true,
+            "additional_label": "Enter the name of new mail class"
         }
     },
     {
@@ -244,7 +358,7 @@
             "type": "php artisan",
             "command": "make:middleware",
             "additional": true,
-            "additional_label": "Enter the name of the middleware class"
+            "additional_label": "Enter the name of new middleware class"
         }
     },
     {
@@ -254,7 +368,7 @@
             "type": "php artisan",
             "command": "make:migration",
             "additional": true,
-            "additional_label": "Enter the name of the migration"
+            "additional_label": "Enter the name of new migration class"
         }
     },
     {
@@ -264,7 +378,37 @@
             "type": "php artisan",
             "command": "make:model",
             "additional": true,
-            "additional_label": "Enter the name of the model"
+            "additional_label": "Enter the name of new model class"
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan Make:Notification",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "make:notification",
+            "additional": true,
+            "additional_label": "Enter the name of new notification class"
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan Make:Observer",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "make:observer",
+            "additional": true,
+            "additional_label": "Enter the name of new observer class"
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan Make:Policy",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "make:policy",
+            "additional": true,
+            "additional_label": "Enter the name of new policy class"
         }
     },
     {
@@ -274,7 +418,7 @@
             "type": "php artisan",
             "command": "make:provider",
             "additional": true,
-            "additional_label": "Enter the name of the provider"
+            "additional_label": "Enter the name of new provider class"
         }
     },
     {
@@ -284,7 +428,27 @@
             "type": "php artisan",
             "command": "make:request",
             "additional": true,
-            "additional_label": "Enter the name of the request"
+            "additional_label": "Enter the name of new request class"
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan Make:Resource",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "make:resource",
+            "additional": true,
+            "additional_label": "Enter the name of new resource class"
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan Make:Rule",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "make:rule",
+            "additional": true,
+            "additional_label": "Enter the name of new rule class"
         }
     },
     {
@@ -294,7 +458,7 @@
             "type": "php artisan",
             "command": "make:seeder",
             "additional": true,
-            "additional_label": "Enter the name of the seeder"
+            "additional_label": "Enter the name of new seeder class"
         }
     },
     {
@@ -304,7 +468,15 @@
             "type": "php artisan",
             "command": "make:test",
             "additional": true,
-            "additional_label": "Enter the name of the test"
+            "additional_label": "Enter the name of new test class"
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan Migrate:Fresh",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "migrate:fresh",
         }
     },
     {
@@ -348,7 +520,23 @@
         }
     },
     {
-        "caption": "WebDevShell: Artisan Queue:List Failed Jobs",
+        "caption": "WebDevShell: Artisan Notification:Table",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "notifications:table"
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan Optimize:Clear",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "optimize:clear"
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan Queue:Failed",
         "command": "webdevshell",
         "args": {
             "type": "php artisan",
@@ -356,7 +544,7 @@
         }
     },
     {
-        "caption": "WebDevShell: Artisan Queue:Failed Table",
+        "caption": "WebDevShell: Artisan Queue:Failed-Table",
         "command": "webdevshell",
         "args": {
             "type": "php artisan",
@@ -378,7 +566,7 @@
             "type": "php artisan",
             "command": "queue:flush",
             "additional": true,
-            "additional_label": "Enter the ID of the failed job"
+            "additional_label": "Enter the id of the failed job"
         }
     },
     {
@@ -408,16 +596,6 @@
         }
     },
     {
-        "caption": "WebDevShell: Artisan Queue:Subscribe",
-        "command": "webdevshell",
-        "args": {
-            "type": "php artisan",
-            "command": "queue:subscribe",
-            "additional": true,
-            "additional_label": "Enter the name of Iron.io queue and the URL to be subscribed"
-        }
-    },
-    {
         "caption": "WebDevShell: Artisan Queue:Table",
         "command": "webdevshell",
         "args": {
@@ -432,7 +610,7 @@
             "type": "php artisan",
             "command": "queue:work",
             "additional": true,
-            "additional_label": "Enter the name of connection"
+            "additional_label": "Enter additional parameters (optional)"
         }
     },
     {
@@ -476,13 +654,27 @@
         }
     },
     {
+        "caption": "WebDevShell: Artisan Storage:Link",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "storage:link"
+        }
+    },
+    {
         "caption": "WebDevShell: Artisan Vendor:Publish",
         "command": "webdevshell",
         "args": {
             "type": "php artisan",
             "command": "vendor:publish",
-            "additional": true,
-            "additional_label": "Enter the name of package"
+        }
+    },
+    {
+        "caption": "WebDevShell: Artisan View:Cache",
+        "command": "webdevshell",
+        "args": {
+            "type": "php artisan",
+            "command": "view:cache"
         }
     },
     {
@@ -532,7 +724,8 @@
         "args": {
             "type": "composer",
             "command": "install",
-            "additional": true
+            "additional": true,
+            "additional_label": "Enter packages to install"
         }
     },
     {
@@ -541,7 +734,8 @@
         "args": {
             "type": "composer",
             "command": "global install",
-            "additional": true
+            "additional": true,
+            "additional_label": "Enter packages to install"
         }
     },
     {
@@ -559,7 +753,8 @@
         "args": {
             "type": "composer",
             "command": "require",
-            "additional": true
+            "additional": true,
+            "additional_label": "Enter packages to require"
         }
     },
     {
@@ -568,7 +763,8 @@
         "args": {
             "type": "composer",
             "command": "global require",
-            "additional": true
+            "additional": true,
+            "additional_label": "Enter packages to require"
         }
     },
     {
