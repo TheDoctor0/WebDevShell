@@ -11,17 +11,50 @@ Commands available out of the box are mostly related Laravel based project devel
 - `Composer` (all commands, documentation link)
 - `NPM` (all commands, dev/prod/watch, documentation link)
 - `Yarn` (all commands, dev/prod/watch, documentation link)
-- `Python` (general command, version command, documentation link)
-- `PHP` (general command, version command, documentation link)
-- `PHPStan` (general command, analysis command, documentation link)
-- `PHP Psalm` (analysis command, documentation link)
-- `ESLint` (analysis command, documentation link)
-- `Python` (general command, version command, documentation link)
+- `Python` (general and version command, documentation link)
+- `PHP` (general and version command, documentation link)
+- `PHPStan` (general and analysis command, documentation link)
+- `Psalm` (general and analysis command, documentation link)
+- `ESLint` (general and analysis command, documentation link)
 - `StackOverflow Search` (text in search input or if empty from selected text)
 - `Google Search` (text in search input or if empty from selected text)
 - `Check Internet Connection` (ping 1.1.1.1)
 
 Feel free to open pull request with additional commands.
+
+### Installation:
+Use Package Controller or create a the directory `WebDevShell` in your Sublime Text Packages directory with source code from this repository.
+
+Update paths for types in `Preferences/Package Settings/WebDevShell/Settings – User` defined as `prefixname_path` settings.
+For example `"php_path": "php"`. You need to define `path` as global command or full path to binary file.
+
+```json
+{
+    // Settings
+    "override_panel_settings": true,
+    "colored_output": true,
+
+    // Type paths
+    "php_path": "php",
+    "artisan_path": "artisan",
+    "composer_path": "composer",
+    "npm_path": "npm",
+    "yarn_path": "yarn",
+    "python_path": "python",
+    "phpunit_path": "./vendor/bin/phpunit",
+    "phpstan_path": "./vendor/bin/phpstan",
+    "psalm_path": "./vendor/bin/psalm",
+    "eslint_path": "./node_modules/.bin/eslint"
+}
+```
+
+### Usage:
+Press `Cmd + Shift + P` for the dropdown command list, search for `WebDevShell ` and pick your command. You can alternatively use `Tools/WebDevShell...` menu item.
+
+### Notes:
+You may need insert in Sublime Text user settings `"show_panel_on_build": true` or use `Tools/Build Results/Show Build Results` menu item for view results.
+
+By default `"override_panel_settings" : true` in WebDevShell settings enables a mechanism forcing to show panel, but I don't guarantee it works on all versions.
 
 ### Custom commands
 To add custom commands use `Preferences/Package Settings/WebDevShell/Commands – User` menu item.
@@ -92,14 +125,3 @@ To set message for this input set `additional_label`.
 - `path` is a location where your command will be executed.
 You can add any path here or set it to `changeable` so there will be option to insert path every time you execute that command.
 If no path is defined, command will be executed in project root directory.
-
-### Installation:
-Use Package Controller or create a the directory `WebDevShell` in your Sublime Text Packages directory with source code from this repository.
-
-### Usage:
-Press `Cmd + Shift + P` for the dropdown command list, search for `WebDevShell ` and pick your command. You can alternatively use `Tools/WebDevShell...` menu item.
-
-### Notes:
-You may need insert in Sublime Text user settings `"show_panel_on_build": true` or use `Tools/Build Results/Show Build Results` menu item for view results.
-
-By default `"override_panel_settings" : true` in WebDevShell settings enables a mechanism forcing to show panel, but I don't guarantee it works on all versions.
